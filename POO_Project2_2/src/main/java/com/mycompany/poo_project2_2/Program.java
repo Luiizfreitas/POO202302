@@ -36,11 +36,7 @@ public class Program {
         System.out.println("CPF: " + cpf4);
         System.out.println("Resposta: " + (Util.validarCpf(cpf4) ? "Válido" : "Inválido"));
         
-        // Teste Extra1
-        String cpf5 = "021.904.796-06";
-        System.out.println("\nTeste 4");
-        System.out.println("CPF: " + cpf5);
-        System.out.println("Resposta: " + (Util.validarCpf(cpf5) ? "Válido" : "Inválido"));
+        
     }
    
 }
